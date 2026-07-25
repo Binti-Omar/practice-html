@@ -53,6 +53,8 @@
             font-weight: lighter;
             border: 2px solid red;
             text-decoration: none;
+            padding: 10px;
+            margin-top: 30px;
         }
 
         .port:hover {
@@ -97,9 +99,52 @@
             border-inline-start: 50px;
         }
 
-        /* .image{
-            height: 50px;
-        } */
+        .image {
+            height: 50%;
+            width: 70%;
+        }
+
+        .resume {
+            margin: 60px 0;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        .phone {
+            display: flex;
+            border: solid red;
+            border-radius: 10px;
+            box-shadow: black 10px;
+        }
+
+        .email {
+            display: flex;
+            border: solid red;
+            border-radius: 10px;
+
+        }
+
+        .address {
+            display: flex;
+            border: solid red;
+            border-radius: 10px;
+
+        }
+
+        .footer {
+            background-color: #202020;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .icons{
+            display: flex;
+        }
     </style>
 </head>
 
@@ -203,7 +248,7 @@
 
 
     <div class="projects">
-        <div class="continer">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <h3>Project 1</h3>
@@ -266,6 +311,55 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="resume">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/image7.jpg" alt="myimage" class="image">
+                </div>
+                <div class="col-lg-8">
+                    <h2>ABOUT <span class="red"> ME</span></h2>
+                    <h5>Front End Developer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequuntur nemo iure
+                        doloremque, est at cumque alias amet eveniet, minima nostrum quam rem hic id. Voluptatum,
+                        maiores. Accusantium, assumenda velit!</p>
+                    <a href="" class="port">DOWNLOAD RESUME</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="phone">
+            <img src="images/phone.png" alt="myimage">
+            <h5>Phone</h5>
+            <p>+1 234 123 1234
+                +1 234 123 1234</p>
+        </div>
+        <div class="email">
+            <img src="images/email.png" alt="myimage">
+            <h5>Email</h5>
+            <p>info@gmail.com
+                abcd@gmail.com</p>
+        </div>
+        <div class="address">
+            <img src="images/address.png" alt="myimage">
+            <h5>Address</h5>
+            <p>Fatikchhari, Chittagong, Bangladesh</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3><span class="red">S</span>HAIF <span class="red">A</span>RFAN</h3>
+        <p>Your Complete Web Solution</p>
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Copyright © 2020 Arfan. All rights reserved</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
